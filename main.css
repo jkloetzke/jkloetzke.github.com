@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+}
+
+div#intro {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+div#details {
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#ressources {
+	text-align: left;
+	width: 700px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+#logo-div {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#logo {
+	margin: 0 auto;
+	width: auto;
+}
+
+#description {
+	text-align: justify;
+	margin: 1em auto;
+	text-indent: 1em;
+}
+
