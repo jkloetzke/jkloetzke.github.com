@@ -1,0 +1,45 @@
+{% assign pre = null %}
+{% assign prepre = null %}
+{% assign prev_post = null %}
+{% assign next_post = null %}
+{% assign category = page.categories.first %}
+
+{% for post in site.posts %}
+	{% if post.categories contains category %}
+		{% if pre.url == page.url %}
+			{% assign prev_post = prepre %}
+			{% assign next_post = post %}
+		{% endif %}
+		{% assign prepre = pre %}
+		{% assign pre = post %}
+	{% endif %}
+{% endfor %}
+
+{% if pre.url == page.url %}
+	{% assign prev_post = prepre %}
+{% endif %}
+
+{% if nav_reversed %}
+	{% assign tmp = prev_post %}
+	{% assign prev_post = next_post %}
+	{% assign next_post = tmp %}
+	{% assign tmp = null %}
+{% endif %}
+
+{% if prev_post or next_post %}
+<nav>
+	{% if prev_post %}
+	<div class="nav-previous">
+		<a href="{{ prev_post.url }}" rel="prev">&larr; {{ prev_post.title }}</a>
+	</div>
+	{% endif %}
+	{% if next_post %}
+	<div class="nav-next">
+		<a href="{{ next_post.url }}" rel="next">{{ next_post.title }} &rarr;</a>
+	</div>
+	{% endif %}
+</nav>
+{% endif %}
+
+{% assign nav_reversed = null %}
+

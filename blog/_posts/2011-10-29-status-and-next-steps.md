@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Status and next steps
+section: blog
 ---
 
 Currently PeerDrive is already quite usable if you're not too attached to the

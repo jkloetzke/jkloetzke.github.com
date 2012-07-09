@@ -9,8 +9,8 @@ peer-to-peer data model and will be a perfect solution when you need your data
 on different devices in different locations without relying on a permanent
 network connection or central infrastructure.
 
-Currently PeerDrive is in the early alpha stage and hence (unless you're really
-brave) for *developers only*. The basic design is settled and there is a
+Currently PeerDrive is in the alpha stage and hence (unless you're really
+brave) not ready for productive use. The basic design is settled and there is a
 prototype implementation of the file system in Erlang. Mounting via FUSE/Dokan,
 network transparency and automatic synchronization/replication are roughly
 working.  Additionally some small GUI applications exist to demonstrate the
@@ -54,6 +54,11 @@ PeerDrive allows you to organize your files in arbitrary, non-hierarchical
 ways. The links between folders and files are location independent and work
 reliably across volume boundaries. Additionally any meta data, including links
 to other files, can be added to a file or folder.
+
+Screenshots
+===========
+
+{% for post in site.categories.screenshots reversed %} [![](/screenshots/images/small/{{post.image}})]({{ post.url }}) {% endfor %}
 
 View it in action
 =================
