@@ -8,10 +8,11 @@ Get involved
 
 PeerDrive is currently hosted on GitHub.
 
-Project home: [htts://github.com/jkloetzke/peerdrive](http://github.com/jkloetzke/peerdrive)
-
-Mailing list: [hotchpotch@freelists.org](mailto:hotchpotch@freelists.org) (the
-projects former name, [archive](http://www.freelists.org/list/hotchpotch))
+Resources:
+* Project home: [htts://github.com/jkloetzke/peerdrive](http://github.com/jkloetzke/peerdrive)
+* Twitter: [@PeerDrive](https://twitter.com/PeerDrive)
+* Mailing list: [hotchpotch@freelists.org](mailto:hotchpotch@freelists.org) (the
+  projects former name, [archive](http://www.freelists.org/list/hotchpotch))
 
 Download
 ========
