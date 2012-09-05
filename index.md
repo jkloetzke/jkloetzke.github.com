@@ -24,7 +24,7 @@ Store
 
 PeerDrive is mountable as a regular file system through FUSE and Dokan, thus
 supporting all major operating systems. All objects in PeerDrive are versioned
-so you never have to worry overwriting or loosing important data again. If the
+so you never have to worry overwriting or losing important data again. If the
 application is PeerDrive aware you even have to never save your work
 explicitly. A new version is created when you close a document or whenever you
 like.
